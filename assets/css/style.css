@@ -1,0 +1,269 @@
+body {
+    overflow-x: hidden;
+}
+.title {
+    color: #452f31;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+}
+.sub-title {
+    color: #452f31;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.tables {
+    width: 100%;
+}
+#location,
+#layout,
+#price,
+#promo {
+    background: #f0f0f0;
+}
+#footer {
+    background: #0d2b51;
+    color: white;
+}
+
+#home {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-container {
+    text-align: center;
+}
+.home-description {
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 700px;
+    font-weight: 300;
+    font-size: 11px;
+    margin: 20px auto;
+    line-height: 29px;
+    letter-spacing: 1px;
+}
+.icon-bar {
+    background: #452f31;
+}
+.virtualtour {
+    float: right;
+    background: blue;
+    color: white;
+    padding: 3px 10px;
+    letter-spacing: 2px;
+    margin: 10px;
+    text-decoration: none;
+}
+.home-title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40vh;
+}
+#about > div {
+    text-align: center;
+}
+.dualcolumn-container {
+    padding: 0 40px;
+}
+.facilities-description,
+.about-description {
+    color: #452f31;
+    text-align: justify;
+    line-height: 30px;
+}
+.about-description span {
+    font-weight: bold;
+}
+.dualcolumn-content {
+    text-align: left;
+}
+.dualcolumn-content h5 {
+    margin: 0;
+    line-height: 36px;
+}
+.about-image {
+    height: 33px;
+    display: block;
+    margin: 23px 0;
+}
+.facilities-gallery {
+    margin-top: 40px;
+}
+.facilities-gallery-image-a {
+    padding: 0px;
+    overflow: hidden;
+    height: 133px;
+}
+.facilities-gallery-image {
+    transition: 0.75s;
+    width: 100%;
+    margin: 0px;
+}
+.specication-gallery-image-a,
+.location-gallery-image-a {
+    padding: 0px;
+    overflow: hidden;
+    width: 100%
+}
+.location-gallery-image {
+    width: 100%;
+    padding: 40px;
+}
+.facilities-gallery-image:hover {
+    width: 120%;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+.specification.sub-title {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.specification-gallery-image {
+    width: 100%;
+}
+.promo-gallery-image-a {
+    padding: 0px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.promo-gallery-image {
+    max-width: 100%;
+    padding: 40px;
+}
+#contact .form-control {
+    border-radius: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 23px;
+    background: #e8e8e8;
+    border: none;
+    box-shadow: none;
+}
+.form-control::placeholder {
+    color: #aaaaaa
+}
+.specification-row {
+    margin-top: 40px;
+}
+#location .title {
+    margin: 40px 40px 0;
+}
+#contact .btn-primary {
+    border-radius: 45px;
+    font-weight: bold;
+}
+.btn-start {
+    padding: 12px;
+    color: #452f31;
+    font-size: 12px;
+    font-weight: bold;
+    background: white;
+    border-radius: 35px;
+    text-decoration: none !important;
+    margin: 10px 0;
+    display: inline-block;
+}
+.footer-title1 {
+    font-size: 26px;
+    line-height: 23px;
+    letter-spacing: 6px;
+    margin-top: 40px;
+}
+.bold {
+    font-weight: 600;
+}
+.italic {
+    font-style: italic;
+}
+.italicunderline {
+    font-style: italic;
+    text-decoration: underline;
+}
+.year {
+    font-weight: bold;
+    text-align: center;
+}
+.footer-title2 {
+    line-height: 23px;
+    font-size: 26px;
+    font-weight: bolder;
+    letter-spacing: 6px;
+}
+.footer-addon {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.nav-logo {
+    height: 100%;
+}
+.navbar {
+    background-color: white;
+}
+.navbar-nav li{
+    transition: 0.5s; 
+    border-bottom: 3px solid #fff;
+}
+.navbar-nav li.active {
+    border-bottom: 3px solid #452f31;
+}
+.navbar-nav a{
+    color: #452f31 !important;
+    font-weight: bold;
+    background-color: white !important;
+}
+li.on-mobile {
+    flex: 1;
+    list-style-type: none;
+}
+#mobile-footer {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+li.on-mobile > a {
+    padding: 15px 0px;
+    align-items: center;
+    color: white !important;
+    background-color: #74a7c5 !important;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+.modal-body {
+    padding: 0px;
+}
+.page {
+    padding-bottom: 40px;
+}
+.no-decoration {
+    text-decoration: none;
+    color: white;
+}
+.navbar-fixed-top .navbar-collapse {
+    max-height: 100vh;
+}
+@media (max-width: 500px) {
+    .home-title {
+        margin-top: 18vh;
+    }
+    #mobile-footer {
+        display: flex;
+    }
+}
