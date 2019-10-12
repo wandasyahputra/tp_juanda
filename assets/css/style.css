@@ -55,15 +55,6 @@ body {
 .icon-bar {
     background: #452f31;
 }
-.virtualtour {
-    float: right;
-    background: blue;
-    color: white;
-    padding: 3px 10px;
-    letter-spacing: 2px;
-    margin: 10px;
-    text-decoration: none;
-}
 #transsnowworld {
     padding: 0px;
     height: 100vh;
@@ -96,8 +87,21 @@ body {
 .img-100 {
     width: 100%
 }
-#about > div {
-    text-align: center;
+#internationalschool {
+    display: flex;
+}
+#internationalschool .left-container {
+    flex-grow: 1;
+    position: relative;
+    background: #004bc2;
+    color: white;
+}
+#internationalschool h4,
+#internationalschool h5 {
+    font-weight: 700;
+}
+#internationalschool h4 {
+    font-size: 15px;
 }
 .dualcolumn-container {
     padding: 0 40px;

@@ -74,6 +74,39 @@
                         banyak permainan di dalamnya yang bisa anda lakuakan
                     </p>
                 </div>
+            </div>
+            <div id="internationalschool" class="page"> 
+				<div class="left-container">
+                    <h4>
+                        INTERNATIONAL SCHOOL
+                    </h4>
+                    <h5>
+                        OUR MAJOR
+                    </h5>
+                    <p>- Business Studies</p>
+                    <p>- Digital Media Communication and Advertising</p>
+                    <p>- Performing Arts Communication</p>
+                    <p>- Mass Media Communication</p>
+                    <p>- Entrepreneurship and Business Communication</p>
+                    <p>- Hospitality Management Communication & MICE</p>
+                </div>
+				<div class="right-container">
+                    <img src="assets/img/06 LSPR.jpg">
+                </div>
+            </div>
+            <div id="home" class="page"> 
+				<div class="home-container">
+                    <h3>TRANSPARK JUANDA</h3>
+                    <h4>THE NEW ICON OF BEKASI CITY</h4>
+                    <h5>Supar Block dengan luas lahan 5,5 hectar</h5>
+                </div>
+            </div>
+            <div id="home" class="page"> 
+				<div class="home-container">
+                    <h3>TRANSPARK JUANDA</h3>
+                    <h4>THE NEW ICON OF BEKASI CITY</h4>
+                    <h5>Supar Block dengan luas lahan 5,5 hectar</h5>
+                </div>
 			</div>
 		<script>			
 			$('#navbars').scrollspy({offset:"-50",animate: true,duration: 750})
