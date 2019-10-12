@@ -31,25 +31,26 @@ body {
 #home {
     width: 100vw;
     min-height: 100vh;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/01 wallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: -15px;
 }
 .home-container {
-    text-align: center;
-}
-.home-description {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
     color: white;
-    background: rgba(0,0,0,0.5);
-    padding: 10px 15px;
-    text-align: center;
-    border-radius: 15px;
-    max-width: 700px;
-    font-weight: 300;
-    font-size: 11px;
-    margin: 20px auto;
-    line-height: 29px;
-    letter-spacing: 1px;
+}
+.home-container h3 {
+    font-weight: 700;
+    font-size: 35px;
+}
+.home-container h4 {
+    font-size: 24px;
+}
+.home-container h5 {
+    font-size: 20px;
 }
 .icon-bar {
     background: #452f31;
@@ -63,11 +64,37 @@ body {
     margin: 10px;
     text-decoration: none;
 }
-.home-title {
-    color: white;
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 40vh;
+#transsnowworld {
+    padding: 0px;
+    height: 100vh;
+    display: inline-flex;
+    position: relative;
+}
+.transsnowworld-title {
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+    text-align: right;
+}
+.transsnowworld-title h4{
+    font-weight: 800;
+}
+.part-1 {
+    width: 21vw;
+    height: 100vh;
+    display: inline-block;
+    overflow: hidden;
+}
+.part-2 {
+    display: inline-block;
+    height: 100vh;
+    overflow: hidden;
+}
+.box-img-square {
+    width: 25vw;
+}
+.img-100 {
+    width: 100%
 }
 #about > div {
     text-align: center;
@@ -210,7 +237,7 @@ body {
     padding: 0px;
 }
 .nav-logo {
-    height: 100%;
+    width: 73px;
 }
 .navbar {
     background-color: white;
@@ -219,6 +246,15 @@ body {
     transition: 0.5s; 
     border-bottom: 3px solid #fff;
 }
+.navbar-nav li.w-small{
+    max-width: 80px;
+}
+.navbar-nav li.w-medium{
+    max-width: 110px;
+}
+.navbar-nav li.w-large{
+    max-width: 150px;
+}
 .navbar-nav li.active {
     border-bottom: 3px solid #452f31;
 }
@@ -226,6 +262,7 @@ body {
     color: #452f31 !important;
     font-weight: bold;
     background-color: white !important;
+    overflow-wrap: normal;
 }
 li.on-mobile {
     flex: 1;
@@ -260,10 +297,23 @@ li.on-mobile > a {
     max-height: 100vh;
 }
 @media (max-width: 500px) {
-    .home-title {
-        margin-top: 18vh;
+    .home-container {
+        bottom: 100px;
     }
+    .home-container h3 {
+        font-size: 25px;
+    }
+    .home-container h4 {
+        font-size: 17px;
+    }
+    .home-container h5 {
+        font-size: 13px;
+    }
+    
     #mobile-footer {
         display: flex;
+    }
+    .navbar-nav li {
+        max-width: 100% !important;
     }
 }
