@@ -10,9 +10,16 @@ body {
 }
 .sub-title {
     color: #452f31;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
+}
+p.content {
+    margin: 5px;
+}
+.group {
+    margin: 20px;
+    display: inline-block;
 }
 .tables {
     width: 100%;
@@ -58,6 +65,7 @@ body {
 #transsnowworld {
     padding: 0px;
     height: 100vh;
+    width: 100vw;
     display: inline-flex;
     position: relative;
 }
@@ -73,11 +81,14 @@ body {
 .part-1 {
     width: 21vw;
     height: 100vh;
-    display: inline-block;
+    display: inline-flex;
+    flex: 2;
+    flex-direction: column;
     overflow: hidden;
 }
 .part-2 {
-    display: inline-block;
+    display: inline-flex;
+    flex: 8;
     height: 100vh;
     overflow: hidden;
 }
@@ -89,22 +100,50 @@ body {
 }
 #internationalschool {
     display: flex;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 #internationalschool .left-container {
+    align-items: center;
     flex-grow: 1;
+    display: flex;
+    height: 100vh;
     position: relative;
     background: #004bc2;
     color: white;
+}
+#internationalschool .left-container > div {
+    margin: 0 auto;
+}
+.lspr-icon {
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+    width: 150px;
+}
+#internationalschool .right-container img {
+    width: 100%;
 }
 #internationalschool h4,
 #internationalschool h5 {
     font-weight: 700;
 }
 #internationalschool h4 {
-    font-size: 15px;
+    font-size: 28px;
+}
+#internationalschool h5 {
+    font-size: 25px;
+}
+.w-800 {
+    width: 800px;
+    margin: 10px 0;
 }
 .dualcolumn-container {
     padding: 0 40px;
+}
+#onestoplivingsuperblock {
+    text-align: center;
 }
 .facilities-description,
 .about-description {
@@ -313,7 +352,12 @@ li.on-mobile > a {
     .home-container h5 {
         font-size: 13px;
     }
-    
+    .w-800 {
+        width: 80%;
+    }
+    .web-only {
+        display: none;
+    }
     #mobile-footer {
         display: flex;
     }

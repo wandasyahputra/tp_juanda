@@ -60,7 +60,7 @@
                         <img class="img-100" src="assets/img/05 trans snow.jpg">
                     </div>
                 </div>
-                <div class="part-2">
+                <div class="part-2 web-only">
                     <img class="img-100" src="assets/img/02 trans snow.jpg">
                 </div>
                 <div class="transsnowworld-title">
@@ -77,28 +77,56 @@
             </div>
             <div id="internationalschool" class="page"> 
 				<div class="left-container">
-                    <h4>
-                        INTERNATIONAL SCHOOL
-                    </h4>
-                    <h5>
-                        OUR MAJOR
-                    </h5>
-                    <p>- Business Studies</p>
-                    <p>- Digital Media Communication and Advertising</p>
-                    <p>- Performing Arts Communication</p>
-                    <p>- Mass Media Communication</p>
-                    <p>- Entrepreneurship and Business Communication</p>
-                    <p>- Hospitality Management Communication & MICE</p>
+					<div>
+						<h4>
+							INTERNATIONAL SCHOOL
+						</h4>
+						<h5>
+							OUR MAJOR
+						</h5>
+						<p>- Business Studies</p>
+						<p>- Digital Media Communication and Advertising</p>
+						<p>- Performing Arts Communication</p>
+						<p>- Mass Media Communication</p>
+						<p>- Entrepreneurship and Business Communication</p>
+						<p>- Hospitality Management Communication & MICE</p>
+					</div>
+					<img class="lspr-icon" src="assets/img/06 logo-lspr.png">
                 </div>
-				<div class="right-container">
+				<div class="right-container web-only">
                     <img src="assets/img/06 LSPR.jpg">
                 </div>
             </div>
-            <div id="home" class="page"> 
-				<div class="home-container">
-                    <h3>TRANSPARK JUANDA</h3>
-                    <h4>THE NEW ICON OF BEKASI CITY</h4>
-                    <h5>Supar Block dengan luas lahan 5,5 hectar</h5>
+            <div id="onestoplivingsuperblock" class="page"> 
+				<div class="container">
+					<div class="group">
+						<div class="title">ONE STOP LIVING SUPERBLOCK</div>
+						<img class="w-800" src="assets/img/07 HOTEL.jpg">
+						<div class="sub-title">HOTEL</div>
+						<p class="content">Menjadikannya Transpark Juanda sebagai Salah satu tujuan wisara di kota bekasi,<br>
+						membuat area ini akan kedatangan wisatawan dari berbagai daerah, sehingga dibangun sebuah hotel berbintang di tengah kawasan<br>
+						yang akan menjadikan transpark juanda menjadi destinasi wisata terbaik yang super lengkap.<br></p>
+					</div>
+					<div class="group">
+						<img class="w-800" src="assets/img/08 shop houses.jpg">
+						<div class="sub-title">SHOP HOUSES</div>
+						<p class="content">
+							Area Komersil yang akan menjadi pusat bisnis dan mempermudah para penghuni apartemen untuk memenuhi kebutuhan hidup.
+						</p>
+					</div>
+					<div>
+						<div class="title">INTEGRATED WITH <br>TRANSIT ORIENTED DEVELOPEMENT</div>
+						<img class="w-800" src="assets/img/09 transit.jpeg">
+						<div class="group">
+							<p class="content">
+								Terletak strategis di kota bekasi, yang memiliki akses dan lokasi terbaik di Jl. Ir. H. Juanda No 180<br>
+								Sehingga akses transportasi menjadi sangat mudah<br>
+								Seperti stasiun commuter line hanya berjarak sekitar 200 meter,<br>
+								halte transjakarta yang berada tepat di depan Transpark Juanda dan disediakan pula shutle bus menuju stasiun LRT,<br>
+								dan jika anda menggunakan kendaraan pribadi pun, akses Tol bekasi timur dan Tol bekasi barat tak jauh dari lokasi.<br>
+							</p>
+						</div>
+					</div>
                 </div>
             </div>
             <div id="home" class="page"> 
