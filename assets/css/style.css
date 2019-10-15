@@ -18,7 +18,8 @@ p.content {
     margin: 5px;
 }
 .group {
-    margin: 20px;
+    margin: 20px 0;
+    width: 100%;
     display: inline-block;
 }
 .tables {
@@ -41,6 +42,7 @@ p.content {
     background-image: url('../img/01 wallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: -15px;
 }
 .home-container {
@@ -139,6 +141,10 @@ p.content {
     width: 800px;
     margin: 10px 0;
 }
+.w-500 {
+    width: 500px;
+    margin: 10px 0;
+}
 .dualcolumn-container {
     padding: 0 40px;
 }
@@ -160,6 +166,34 @@ p.content {
 .dualcolumn-content h5 {
     margin: 0;
     line-height: 36px;
+}
+.group-thumbnail {
+    max-width: 300px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+.group-thumbnail img{
+    width: 100%;
+}
+.thumbnail-caption {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background: rgba(0, 0, 139, 0.53);;
+}
+#highclassfacilities {
+    text-align: center;
+}
+.display-flex{
+    display: flex;
+}
+#highclassfacilities > .display-flex > div {
+    margin: 15px;
+}
+#highclassfacilities > .display-flex > div > img{
+    width: 100%;
 }
 .about-image {
     height: 33px;

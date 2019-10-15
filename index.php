@@ -103,9 +103,11 @@
 						<div class="title">ONE STOP LIVING SUPERBLOCK</div>
 						<img class="w-800" src="assets/img/07 HOTEL.jpg">
 						<div class="sub-title">HOTEL</div>
-						<p class="content">Menjadikannya Transpark Juanda sebagai Salah satu tujuan wisara di kota bekasi,<br>
-						membuat area ini akan kedatangan wisatawan dari berbagai daerah, sehingga dibangun sebuah hotel berbintang di tengah kawasan<br>
-						yang akan menjadikan transpark juanda menjadi destinasi wisata terbaik yang super lengkap.<br></p>
+						<p class="content">
+							Menjadikannya Transpark Juanda sebagai Salah satu tujuan wisara di kota bekasi,<br>
+							membuat area ini akan kedatangan wisatawan dari berbagai daerah, sehingga dibangun sebuah hotel berbintang di tengah kawasan<br>
+							yang akan menjadikan transpark juanda menjadi destinasi wisata terbaik yang super lengkap.<br>
+						</p>
 					</div>
 					<div class="group">
 						<img class="w-800" src="assets/img/08 shop houses.jpg">
@@ -123,18 +125,65 @@
 								Sehingga akses transportasi menjadi sangat mudah<br>
 								Seperti stasiun commuter line hanya berjarak sekitar 200 meter,<br>
 								halte transjakarta yang berada tepat di depan Transpark Juanda dan disediakan pula shutle bus menuju stasiun LRT,<br>
-								dan jika anda menggunakan kendaraan pribadi pun, akses Tol bekasi timur dan Tol bekasi barat tak jauh dari lokasi.<br>
+								dan jika anda menggunakan kendaraan pribadi pun, akses Tol bekasi timur dan Tol bekasi barat tak jauh dari lokasi.
 							</p>
+						</div>
+					</div>
+					<div>
+						<div class="group-thumbnail">
+							<img src="assets/img/10 Transit-Oriented Development01.jpg">
+							<div class="thumbnail-caption">+/- 1 km dari TransPark Juanda</div>
+						</div>
+						<div class="group-thumbnail">
+							<img src="assets/img/10 Transit-Oriented Development02.jpg">
+							<div class="thumbnail-caption">+/- 2 km dari TransPark Juanda</div>
+						</div>
+						<div class="group-thumbnail">
+							<img src="assets/img/10 Transit-Oriented Development03.jpg">
+							<div class="thumbnail-caption">+/- 50 m dari TransPark Juanda</div>
+						</div>
+						<div class="group-thumbnail">
+							<img src="assets/img/10 Transit-Oriented Development04.jpg">
+							<div class="thumbnail-caption">0 km dari TransPark Juanda</div>
+						</div>
+						<div class="group-thumbnail">
+							<img src="assets/img/10 Transit-Oriented Development05.jpg">
+							<div class="thumbnail-caption">+/- 1 km dari TransPark Juanda</div>
 						</div>
 					</div>
                 </div>
             </div>
-            <div id="home" class="page"> 
-				<div class="home-container">
-                    <h3>TRANSPARK JUANDA</h3>
-                    <h4>THE NEW ICON OF BEKASI CITY</h4>
-                    <h5>Supar Block dengan luas lahan 5,5 hectar</h5>
-                </div>
+            <div id="highclassfacilities" class="page">
+				<div class="title">HIGH CLASS FACILITIES</div>
+				<img class="w-800" src="assets/img/11 water park.jpg">
+				<div class="group">
+					<img class="w-800" src="assets/img/12 olimpic pool.jpg">
+					<div class="sub-title">PRIVATE WATERPARK</div>
+					<p class="content">
+						Fasilitas gratis dari penghuni apartemen
+					</p>
+				</div>
+				<div class="group">
+					<img class="w-800" src="assets/img/13 sky garden.jpg">
+					<div class="sub-title">SKY GARDEN</div>
+					<p class="content">
+						360 Pemandangan kota bekasi bisa anda nikmati setiap hari di atas ketinggian, dengan adanya lapangan terbuka hijau<br>
+						dan udara yang segar, anda akan bisa menghirup kesegaran alami di kota bekasi
+					</p>
+				</div>
+				<div class="display-flex container">
+					<div><img src="assets/img/14 sport centre.jpg"></div>
+					<div><img src="assets/img/15 sport centre - Copy.jpg"></div>
+				</div>
+				<div class="group">
+					<img class="w-500" src="assets/img/16 3on3.jpg">
+					<div class="sub-title">SPORT CENTRE</div>
+					<p class="content">
+						Untuk Menunjang Kualitas hidup anda<br>
+						Transpark Juanda memberikan fasilitas yang bisa anda nikmati setiap hari.<br>
+						yaitu arena olahraga seperti Lapangan Olahraga dan Gym Centre, yang akan membuat anda dan keluarga hidup sehat dan bugar.<br>
+					</p>
+				</div>
 			</div>
 		<script>			
 			$('#navbars').scrollspy({offset:"-50",animate: true,duration: 750})
