@@ -25,12 +25,6 @@ p.content {
 .tables {
     width: 100%;
 }
-#location,
-#layout,
-#price,
-#promo {
-    background: #f0f0f0;
-}
 #footer {
     background: #0d2b51;
     color: white;
@@ -193,10 +187,10 @@ p.content {
 .display-flex{
     display: flex;
 }
-#highclassfacilities > .display-flex > div {
+#highclassfacilities > div > .display-flex > div {
     margin: 15px;
 }
-#highclassfacilities > .display-flex > div > img{
+#highclassfacilities > div > .display-flex > div > a > img{
     width: 100%;
 }
 .about-image {
@@ -240,7 +234,10 @@ p.content {
 .specification-gallery-image {
     width: 100%;
 }
-#promo {
+.background-blue {
+    background: #effafe;
+}
+#promo,#locations {
     text-align: center;
 }
 #contact .form-control {
@@ -248,7 +245,7 @@ p.content {
     font-weight: bold;
     margin: 15px 0;
     padding: 23px;
-    background: #e8e8e8;
+    background: white;
     border: none;
     box-shadow: none;
 }
