@@ -391,4 +391,7 @@ li.on-mobile > a {
     .navbar-nav li {
         max-width: 100% !important;
     }
+    .dualcolumn-container {
+        padding: 0;
+    }
 }
