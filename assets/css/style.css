@@ -114,6 +114,7 @@ p.content {
     position: relative;
     background: #004bc2;
     color: white;
+    min-width: 35%;
 }
 #internationalschool .left-container > div {
     margin: 0 auto;
@@ -138,17 +139,20 @@ p.content {
     font-size: 25px;
 }
 .w-800 {
-    width: 800px;
+    width: 100%;
+    max-width: 700px;
     margin: 10px 0;
 }
 .w-500 {
-    width: 500px;
+    width: 100%;
+    max-width: 450px;
     margin: 10px 0;
 }
 .dualcolumn-container {
     padding: 0 40px;
 }
-#onestoplivingsuperblock {
+#onestoplivingsuperblock,
+#typicalfloor {
     text-align: center;
 }
 .facilities-description,
@@ -236,16 +240,8 @@ p.content {
 .specification-gallery-image {
     width: 100%;
 }
-.promo-gallery-image-a {
-    padding: 0px;
-    overflow: hidden;
-    display: inline-block;
+#promo {
     text-align: center;
-    width: 100%;
-}
-.promo-gallery-image {
-    max-width: 100%;
-    padding: 40px;
 }
 #contact .form-control {
     border-radius: 18px;
@@ -332,9 +328,9 @@ p.content {
 .navbar-nav li.w-large{
     max-width: 150px;
 }
-.navbar-nav li.active {
+/* .navbar-nav li.active {
     border-bottom: 3px solid #452f31;
-}
+} */
 .navbar-nav a{
     color: #452f31 !important;
     font-weight: bold;
