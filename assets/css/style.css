@@ -262,6 +262,9 @@ p.content {
     border-radius: 45px;
     font-weight: bold;
 }
+.mobile-only {
+    display: none;
+}
 .btn-start {
     padding: 12px;
     color: #452f31;
@@ -274,9 +277,9 @@ p.content {
     display: inline-block;
 }
 .footer-title1 {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 23px;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     margin-top: 40px;
 }
 .bold {
@@ -297,7 +300,7 @@ p.content {
     line-height: 23px;
     font-size: 26px;
     font-weight: bolder;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
 }
 .footer-addon {
     letter-spacing: 1px;
@@ -378,6 +381,27 @@ li.on-mobile > a {
     }
     .home-container h5 {
         font-size: 13px;
+    }
+    #internationalschool .left-container {
+        align-items: inherit;
+        padding-top: 60px;
+        height: 80vh;
+    }
+    #internationalschool {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #transsnowworld {
+        height: 100%;
+    }
+    .transsnowworld-title {
+        right: 10px;
+        bottom: 0px;
+    }
+    .mobile-only {
+        display: inline;
+        width: 100%;
     }
     .w-800 {
         width: 80%;
